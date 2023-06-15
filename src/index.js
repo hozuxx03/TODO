@@ -1,5 +1,10 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-import App from "./App";
-ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+const App = () => {
+  return null;
+};
+
+// import App from "./App";
+
+ReactDom.render(<App />, document.getElementById("root"));
